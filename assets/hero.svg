@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Raisul Agung Prabankoro, Fullstack Developer. A request flows from the app to the API to the database and back.">
+  <defs>
+    <clipPath id="card"><rect width="1000" height="300" rx="16"/></clipPath>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="#0d1117"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+
+    <!-- header -->
+    <g font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+      <text x="40" y="74" font-size="34" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">Raisul Agung Prabankoro</text>
+      <text x="41" y="106" font-size="17" fill="#8b949e"><tspan fill="#2dd4bf" font-weight="600">Fullstack Developer</tspan> · mobile apps, APIs and the data in between</text>
+    </g>
+    <text x="960" y="72" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6e7681">Bekasi, Indonesia</text>
+
+    <!-- links -->
+    <g fill="none" stroke="#30363d" stroke-width="1.5">
+      <path d="M262,194 H384"/><path d="M380,190 L386,194 L380,198"/>
+      <path d="M266,206 H388"/><path d="M270,202 L264,206 L270,210"/>
+      <path d="M612,194 H734"/><path d="M730,190 L736,194 L730,198"/>
+      <path d="M616,206 H738"/><path d="M620,202 L614,206 L620,210"/>
+    </g>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6e7681" text-anchor="middle">
+      <text x="325" y="180">REST · WS</text>
+      <text x="675" y="180">SQL</text>
+      <text x="325" y="230">JSON</text>
+      <text x="675" y="230">rows</text>
+    </g>
+
+    <!-- nodes -->
+    <g font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+      <rect x="40" y="148" width="220" height="104" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5">
+        <animate attributeName="stroke" dur="4.8s" repeatCount="indefinite"
+          values="#58a6ff;#30363d;#30363d;#58a6ff" keyTimes="0;0.1;0.97;1"/>
+      </rect>
+      <text x="58" y="177" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#2dd4bf" letter-spacing="1">CLIENT</text>
+      <text x="58" y="212" font-size="21" font-weight="700" fill="#e6edf3">Flutter · React</text>
+      <text x="58" y="236" font-size="14" fill="#8b949e">Android, iOS and web</text>
+
+      <rect x="390" y="148" width="220" height="104" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5">
+        <animate attributeName="stroke" dur="4.8s" repeatCount="indefinite"
+          values="#30363d;#30363d;#2dd4bf;#30363d;#30363d;#58a6ff;#30363d;#30363d"
+          keyTimes="0;0.24;0.26;0.36;0.74;0.76;0.86;1"/>
+      </rect>
+      <text x="408" y="177" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#2dd4bf" letter-spacing="1">API</text>
+      <text x="408" y="212" font-size="21" font-weight="700" fill="#e6edf3">Go · Laravel</text>
+      <text x="408" y="236" font-size="14" fill="#8b949e">TypeScript and Python too</text>
+
+      <rect x="740" y="148" width="220" height="104" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5">
+        <animate attributeName="stroke" dur="4.8s" repeatCount="indefinite"
+          values="#30363d;#30363d;#2dd4bf;#30363d;#30363d" keyTimes="0;0.49;0.51;0.62;1"/>
+      </rect>
+      <text x="758" y="177" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#2dd4bf" letter-spacing="1">DATA</text>
+      <text x="758" y="212" font-size="21" font-weight="700" fill="#e6edf3">PostgreSQL</text>
+      <text x="758" y="236" font-size="14" fill="#8b949e">MySQL and Redis</text>
+    </g>
+
+    <!-- packets: request goes right on the top line, response comes back on the bottom line -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="4.8s" repeatCount="indefinite"
+        values="262 194;384 194;384 194" keyTimes="0;0.25;1"/>
+      <animate attributeName="opacity" dur="4.8s" repeatCount="indefinite" calcMode="discrete"
+        values="1;0" keyTimes="0;0.25"/>
+      <circle r="9" fill="#2dd4bf" fill-opacity="0.25"/><circle r="4" fill="#2dd4bf"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="4.8s" repeatCount="indefinite"
+        values="612 194;612 194;734 194;734 194" keyTimes="0;0.25;0.5;1"/>
+      <animate attributeName="opacity" dur="4.8s" repeatCount="indefinite" calcMode="discrete"
+        values="0;1;0" keyTimes="0;0.25;0.5"/>
+      <circle r="9" fill="#2dd4bf" fill-opacity="0.25"/><circle r="4" fill="#2dd4bf"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="4.8s" repeatCount="indefinite"
+        values="738 206;738 206;616 206;616 206" keyTimes="0;0.5;0.75;1"/>
+      <animate attributeName="opacity" dur="4.8s" repeatCount="indefinite" calcMode="discrete"
+        values="0;1;0" keyTimes="0;0.5;0.75"/>
+      <circle r="9" fill="#58a6ff" fill-opacity="0.25"/><circle r="4" fill="#58a6ff"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="4.8s" repeatCount="indefinite"
+        values="388 206;388 206;266 206" keyTimes="0;0.75;1"/>
+      <animate attributeName="opacity" dur="4.8s" repeatCount="indefinite" calcMode="discrete"
+        values="0;1" keyTimes="0;0.75"/>
+      <circle r="9" fill="#58a6ff" fill-opacity="0.25"/><circle r="4" fill="#58a6ff"/>
+    </g>
+
+    <rect x="0.5" y="0.5" width="999" height="299" rx="15.5" fill="none" stroke="#30363d"/>
+  </g>
+</svg>
