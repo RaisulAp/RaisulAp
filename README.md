@@ -30,8 +30,8 @@ My main tool is **Go**: high-throughput APIs, real-time data pipelines, and the 
 ## GitHub
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RaisulAp&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaisulAp&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&langs_count=7" alt="Top languages" />
+  <img height="165" src="https://raw.githubusercontent.com/RaisulAp/RaisulAp/output/github-stats.svg" alt="GitHub stats" />
+  <img height="165" src="https://raw.githubusercontent.com/RaisulAp/RaisulAp/output/github-langs.svg" alt="Top languages" />
 </p>
 
 <picture>
